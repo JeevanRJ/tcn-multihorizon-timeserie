@@ -2,7 +2,7 @@
 
 This repository contains a **Temporal Convolutional Network (TCN)–based pipeline** for modeling multimodal time-series data and predicting **future instability events** using a **multi-horizon formulation**. The workflow is designed for physiological and biomechanical signals collected during locomotion and balance tasks and emphasizes **temporal structure preservation** rather than heavy feature aggregation.
 
-The pipeline supports **data preprocessing, dataset construction, model training, inference, and evaluation**, and is suitable for both **offline analysis** and **future real-time deployment**.
+The pipeline supports **data preprocessing, dataset construction, model training, inference, and evaluation**, and is suitable for both **offline analysis** and **future real-time deployment**
 
 ---
 
