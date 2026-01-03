@@ -30,8 +30,6 @@ This approach is particularly relevant for:
 ├── J_preprocess_shared_UPDATED.ipynb
 ├── J_build_tcn_data_future_multihorizon_missteps.ipynb
 ├── J_Train_and_Save_TCNModel_UPDATED.ipynb
-├── J_infer_trial_probs_fill_gaps_UPDATED.ipynb
-├── J_TCN_Evaluations_UPDATED.ipynb
 └── README.md
 ```
 
@@ -72,27 +70,6 @@ Trains the **multi-output TCN model** and saves the best checkpoint.
 
 ---
 
-### 4. J_infer_trial_probs_fill_gaps_UPDATED.ipynb
-Runs **inference on full trials** using a trained TCN.
-
-**Key functionality**
-- Window-wise probability prediction
-- Temporal reconstruction of continuous probability traces
-- Gap filling and smoothing
-- Trial-level probability outputs
-
----
-
-### 5. J_TCN_Evaluations_UPDATED.ipynb
-Evaluates model performance across prediction horizons.
-
-**Key functionality**
-- AUPRC and baseline-corrected metrics
-- Horizon-wise performance comparison
-- Aggregate (macro-averaged) evaluation
-- Visualization of training vs validation behavior
-
----
 
 ## Key Design Choices
 
