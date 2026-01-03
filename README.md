@@ -27,9 +27,9 @@ This approach is particularly relevant for:
 
 ```
 .
-├── J_preprocess_shared_UPDATED.ipynb
-├── J_build_tcn_data_future_multihorizon_missteps.ipynb
-├── J_Train_and_Save_TCNModel_UPDATED.ipynb
+├── Preprocess_shared.ipynb
+├── Build_tcn_data_future_multihorizon_missteps.ipynb
+├── Train_and_Save_TCNModel.ipynb
 └── README.md
 ```
 
@@ -37,7 +37,7 @@ This approach is particularly relevant for:
 
 ## Notebook Descriptions
 
-### 1. J_preprocess_shared_UPDATED.ipynb
+### 1. Preprocess_shared.ipynb
 Shared preprocessing utilities used across the entire pipeline.
 
 **Key functionality**
@@ -48,7 +48,7 @@ Shared preprocessing utilities used across the entire pipeline.
 
 ---
 
-### 2. J_build_tcn_data_future_multihorizon_missteps.ipynb
+### 2. Build_tcn_data_future_multihorizon_missteps.ipynb
 Constructs the **TCN-ready dataset** with **multi-horizon labels**.
 
 **Key functionality**
@@ -59,7 +59,7 @@ Constructs the **TCN-ready dataset** with **multi-horizon labels**.
 
 ---
 
-### 3. J_Train_and_Save_TCNModel_UPDATED.ipynb
+### 3. Train_and_Save_TCNModel.ipynb
 Trains the **multi-output TCN model** and saves the best checkpoint.
 
 **Key functionality**
